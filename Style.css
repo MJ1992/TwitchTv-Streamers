@@ -1,0 +1,118 @@
+body{
+  background-color:#a2adbf;
+  font-family: 'Roboto', sans-serif;
+}
+.container{
+  text-align: center;
+  background-color: #0e0f0f;
+  width: 50%;
+  margin: -5px auto;
+  padding: 2px 0;
+  
+}
+
+.title{
+  text-align: center;
+  background-color: #ed9a1e;
+  width: 90%;
+  margin: -20px auto;
+  
+}
+.live-status{
+  background : #f99554;
+}
+
+.live-status li{
+  text-align: center;
+  display:inline-block;
+  padding:10px 30px;
+}
+
+
+.resultContainer{
+  text-align: center;
+  background-color: #b5e5de;
+  width: 90%;
+  margin: 0 auto;
+  
+}
+
+.resultContainer h2{
+  text-align: center;
+  background-color: #b5e0de;
+  width: 90%;
+  margin: 0;
+  
+}
+
+img{
+height : 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.resultUrl{
+  text-decoration : none;
+  text-shadow : 1px 1px 2px black;
+  font-weight: 200;
+}
+a:link {
+    color: #000;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: yellow;
+}
+.resultContainer ul{
+  list-style : none;
+}
+.onlineRes li {
+  margin:0 0 0px -40px;
+  padding: 30px 25px;
+   border-bottom: 1px solid #ccc;
+  width : auto;
+  font-family
+  
+}
+.offlineRes li {
+  margin:0 0 0px -40px;
+  padding: 30px 25px;
+   border-bottom: 1px solid #ccc;
+  width : auto;
+  
+}
+
+
+
+li img{
+  float:left;
+  margin: 0 15px 0px 0;
+  padding-bottom: 20px;
+}
+
+li:hover{
+  background : #eee;
+}
+.Active-Menu{
+  display: none;
+}
+input{
+  width:90%;
+  height: 40px;
+}
+input[type=search] {
+  border: 1px groove #999;
+  border-radius: 1px;
+
+  -webkit-appearance: none;
+}
